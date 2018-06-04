@@ -18,7 +18,7 @@ public class Main {
        // how to make array index random
         Random rand = new Random();
         int randomNumber = rand.nextInt(adjectives.length);
-
+        int randomNumber2 = rand.nextInt(nouns.length)
         String adjective = adjectives[randomNumber];
         String noun = nouns[randomNumber];
 
